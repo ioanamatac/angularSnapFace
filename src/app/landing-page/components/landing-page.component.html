@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="landing-block">    
+  <img src="assets/SnapFace1.png ">
+  <h1>SNAPFACE 👌L'application faite pour toi !</h1>  
+    <div class="landing-links">
+      <a routerLink="facesnaps">Continuer vers Snapface</a>
+      <form #emailForm="ngForm"(ngSubmit)="onSubmitForm(emailForm)">
+        <div><label for="emailInput">Inscrivez-vous pour recevoir notre newsletter !</label></div>
+        <div><input id="emailInput" name="userEmail" type="email" [(ngModel)]="userEmail"></div>
+        <div><button type="submit">OK!</button></div>
+      </form>
+    </div>
+  </div>
+  </html>

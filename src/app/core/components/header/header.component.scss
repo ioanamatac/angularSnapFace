@@ -1,0 +1,24 @@
+header {
+    text-align: center;
+    color:antiquewhite;
+    //background-color: #EEE; 
+    background-color:black;    
+    text-decoration: antiquewhite;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: lightgreen 4px 4px 20px
+  }
+  a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+      font-size: x-large;
+    }
+  }
+  
+  .active {
+    color: aquamarine;
+    text-decoration: underline;
+  }

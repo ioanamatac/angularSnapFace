@@ -1,0 +1,67 @@
+.face-snap-card {
+    box-sizing: border-box;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px 30px;    
+    box-shadow: lightgrey 4px 4px 20px;
+    
+  
+    img { 
+      width: 100%;
+      box-shadow: lightgrey 4px 4px 20px;       
+    }
+    img:hover{
+      width: 105%;
+    }
+    h2 {
+      margin-bottom: 0; 
+      &:hover {      
+        font-size: x-large;        
+      }         
+    }
+    h2:hover{
+      font-size: 150%;       
+    }
+    p {
+      font-weight: 300;
+      font-size: 16px;
+    }
+    a:hover{
+      font-size: x-large;
+      color:aquamarine;
+    }
+    
+    button {
+      background-color: transparent;
+      box-sizing: border-box;
+      padding: 5px 10px;
+      border: none;
+      box-shadow: lightgreen 3px 3px 7px;
+      margin-right: 20px;
+      outline: none;
+      font-size: 14px;
+      font-weight: 500;
+      &:active {
+        transform: translate(1px, 1px);
+        box-shadow: lightgreen 0 0 5px;
+      }
+      &:hover {      
+        font-size: x-large;        
+      }
+    }
+}
+
+  .snapped {
+    background-color: rgba(mistyrose, 0.4);
+    color: darkgreen;
+    button {
+      box-shadow: lightgreen 3px 3px 7px;
+      color: darkgreen;
+      &:active {
+        box-shadow: lightgreen 0 0 5px;
+      }
+      &:hover {      
+        font-size: x-large;        
+      }
+    }
+  }
