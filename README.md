@@ -50,7 +50,8 @@
 * ng serve
 
 # 🎬Project Directory
-![Image text](src/assets/project-directory.png)
+![Project-Directory](https://user-images.githubusercontent.com/42002179/163252050-a2c04cab-5d50-4b7f-a1d1-da2bec4787e7.png)
+
 ...
 # 👀Les Observables 
 
