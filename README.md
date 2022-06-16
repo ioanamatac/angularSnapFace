@@ -1,30 +1,6 @@
-<<<<<<< HEAD
+
 # Projet Snapface ✌️
 
-# L'application snapFace 📸 avec [Angular](https://angular.io/docs)
-
-## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation) 
-5. [Project Directory](#project-directory) 
-6. [Angular application](#angular-application)
-
-
-# General Info 🀄
-
-![Image text](src/assets/SnapFace2.png)
->Application photo - projet réalisé suite au nouveau cours 
->Angular OpenClassrooms 👌
-
-# Technologies
-* Système d'exploitation: Windows 11
-* [Node Js](https://nodejs.org/en/download/): Version 16.14.2 
-* [Angular](https://angular.io/docs): Version 13.2.6
-
-# Installation
-* git clone https://github.com/ioanamatac/snapFace.git
-=======
 # ✅L'application photo SnapFace📸 realisée avec [Angular](https://angular.io/docs)13
 
 
@@ -33,13 +9,14 @@
 2. [Technologies](#technologies)
 3. [Installation](#installation) 
 4. [Project Directory](#project-directory) 
-5. [Les Observables](#les-observables)
-6. [Les Operateurs](#les-operateurs)
-7. [La communication serveur avec HttpClient](#la-communication-serveur-avec-HttpClient)
-8. [La modularisation de l'arhitecture de l'appli](#la-modularisation-de-larhitecture-de-lappli)
-9. [Creation d'un module](#creation-dun-module)
-10. [Lazy loading](#lazy-loading)
-11. [Guard - la protection des routes](#guard---la-protection-des-routes)
+5. [Angular Application](#angular-application)
+6. [Les Observables](#les-observables)
+7. [Les Operateurs](#les-operateurs)
+8. [La communication serveur avec HttpClient](#la-communication-serveur-avec-HttpClient)
+9. [La modularisation de l'arhitecture de l'appli](#la-modularisation-de-larhitecture-de-lappli)
+10. [Creation d'un module](#creation-dun-module)
+11. [Lazy loading](#lazy-loading)
+12. [Guard - la protection des routes](#guard---la-protection-des-routes)
 
 
 
@@ -59,7 +36,8 @@
       * npm run start
     * voir le JSON des FaceSnaps retournés par le backend http://localhost:3000/facesnaps
     * voir la liste des photos http://localhost:4200/
-      * ng serve , comme d'hab
+      * ng serve 
+      
 # 🀄Technologies
 
 * Système d'exploitation: Windows 11
@@ -67,21 +45,18 @@
 * [Angular](https://angular.io/docs) Version 13.2.6
 * La librairie [RxJS](https://rxjs.dev/guide/installation) Version: 7.5.5
 >**  L'affichage de toutes les versions de package NPM si t'as installé avec NPM :
-
 >npm list --depth=0
 
 # ⬇️Installation
 * git clone https://github.com/ioanamatac/fullSnapFace.git
->>>>>>> c6c119bbf4583132067164467a17542c4486d81a
 * cd../path/to/the/file
 * npm install
 * ng serve
+* 
+# 🎬Project Directory
+![Project-Directory](https://user-images.githubusercontent.com/42002179/163252050-a2c04cab-5d50-4b7f-a1d1-da2bec4787e7.png)
 
-<<<<<<< HEAD
-# Project Directory
-![Image text](src/assets/project-directory.png)
 # Angular Application 
-
 >Installer le CLI d'Angular(Command Line Interface, ou interface en ligne de commande) :
 * npm i -g @angular/cli
 >Creation projet :
@@ -132,13 +107,6 @@ export class AppModule {
 >L'affichage des donnees dans les templates, formater la valeur sans modifier la donnée, elle-même  :
 * l'utilisation des pipes : DatePipe, DecimalPipe, PercentPipe et CurrencyPipe
 
->Enjoy !👋
-Ioana
-=======
-# 🎬Project Directory
-![Project-Directory](https://user-images.githubusercontent.com/42002179/163252050-a2c04cab-5d50-4b7f-a1d1-da2bec4787e7.png)
-
-...
 # 👀Les Observables 
 
 >Quand on déclare le type de interval$ , on le déclare comme  Observable  qui émet des  number  en passant  number  entre chevrons <>.
@@ -218,4 +186,4 @@ export class FaceSnapsRoutingModule {}
 
 >Enjoy !👋
 >Ioana
->>>>>>> c6c119bbf4583132067164467a17542c4486d81a
+
